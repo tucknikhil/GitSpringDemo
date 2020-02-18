@@ -9,6 +9,7 @@ class TestController {
 
   @GetMapping(Array("/test"))
   def getTest: ResponseEntity[String] = {
+    "Test"
     ResponseEntity.ok("Test")
   }
 
